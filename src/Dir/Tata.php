@@ -4,7 +4,7 @@ namespace App\Dir;
 
 class Tata {
 
-    public function tataHere()
+    public function tata()
     {
         return 'tata';
     }

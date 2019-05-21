@@ -6,8 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Classes\\ElasticSearch\\Query\\Rad\\Tata' => $baseDir . '/src/Tata.php',
-    'App\\Classes\\ElasticSearch\\Query\\Rad\\Toto' => $baseDir . '/src/Toto.php',
+    'App\\Dir\\Tata' => $baseDir . '/src/Dir/Tata.php',
+    'App\\Dir\\Toto' => $baseDir . '/src/Dir/Toto.php',
     'DeepCopy\\DeepCopy' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
     'DeepCopy\\Exception\\CloneException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
     'DeepCopy\\Exception\\PropertyException' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',

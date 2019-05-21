@@ -130,8 +130,8 @@ class ComposerStaticInit1568069767a9c839d57a1cf056e3c7b8
     );
 
     public static $classMap = array (
-        'App\\Classes\\ElasticSearch\\Query\\Rad\\Tata' => __DIR__ . '/../..' . '/src/Tata.php',
-        'App\\Classes\\ElasticSearch\\Query\\Rad\\Toto' => __DIR__ . '/../..' . '/src/Toto.php',
+        'App\\Dir\\Tata' => __DIR__ . '/../..' . '/src/Dir/Tata.php',
+        'App\\Dir\\Toto' => __DIR__ . '/../..' . '/src/Dir/Toto.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
